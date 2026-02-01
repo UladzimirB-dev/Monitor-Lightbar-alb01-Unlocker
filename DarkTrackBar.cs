@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Drawing.Drawing2D;
 
-namespace Aura_Test;
+namespace AuraUnlock;
 
 /// <summary>
 /// A control that represents a custom track bar with a dark-themed appearance.

@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using System.Text.Json;
 using HidSharp;
 
-namespace Aura_Test;
+namespace AuraUnlock;
 
 internal class Program
 {

@@ -1,6 +1,6 @@
 using System.Drawing.Drawing2D;
 
-namespace Aura_Test;
+namespace AuraUnlock;
 
 public class UiManager(Action onSaveConfig, Action onToggleService, Action onExit, int captureW, int captureH)
 {

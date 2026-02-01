@@ -1,4 +1,4 @@
-namespace Aura_Test;
+namespace AuraUnlock;
 
 /// <summary>
 /// Represents the configuration settings for the application.
