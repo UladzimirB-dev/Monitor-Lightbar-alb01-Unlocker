@@ -28,5 +28,12 @@ Unlocks full brightness potential and adds real-time Ambilight (Screen Sync) fea
 * **Device Support:** This driver is designed **exclusively** for the **ASUS ROG Aura Monitor Light Bar (ALB01)**. It does NOT support other ASUS devices (keyboards, mice, motherboards).
 * **No Aura Sync:** This software operates independently. It does **not** synchronize lighting with other Aura Sync-enabled hardware or software.
   
+## ⚠️ "Windows protected your PC" Warning?
+Since this is a free open-source tool created by an individual developer, it does not have a paid digital signature.
+If you see a generic SmartScreen warning:
+1. Click **"More info"**.
+2. Click **"Run anyway"**.
+
+This is standard behavior for new open-source software on Windows.
 ## ❤️ Credits
 Developed as an open-source alternative for the community.
