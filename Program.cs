@@ -118,7 +118,7 @@ internal class Program
         if (_trayIcon == null) return;
 
         _trayIcon.Icon = CreateIcon(_isRunning ? Color.LimeGreen : Color.Red);
-        _trayIcon.Text = _isRunning ? $"ASUS LightBar: {(_isRunning ? "ON" : "OFF")} ({_config.BrightnessPercent}%)" : "ASUS LightBar: PAUSED";
+        _trayIcon.Text = $"ASUS LightBar: {(_isRunning ? "ON" : "OFF")} ({_config.BrightnessPercent}%)";
     }
 
     /// <summary>
@@ -132,7 +132,7 @@ internal class Program
         try
         {
             File.WriteAllText(ConfigPath, JsonSerializer.Serialize(_config));
-            if (_trayIcon != null) _trayIcon.Text = $"ASUS LightBar: ON ({_config.BrightnessPercent}%)";
+            _trayIcon?.Text = $"ASUS LightBar: ON ({_config.BrightnessPercent}%)";
         }
         catch
         {
