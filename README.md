@@ -13,9 +13,9 @@ Unlocks full brightness potential and adds real-time Ambilight (Screen Sync) fea
 
 ## 📥 Installation
 1.  Go to the [Releases](../../releases) page.
-2.  Download the latest `ASUS-LightBar-Driver.zip`.
+2.  Download the Portable or Light zip.
 3.  Unzip anywhere.
-4.  Run `ASUS_ALB01_Driver.exe`.
+4.  Run `AsusLightBarUnlocker.exe`.
 5.  (Optional) Place a shortcut in `shell:startup` to run on boot.
 
 ## ⚙️ Usage
