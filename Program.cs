@@ -63,7 +63,7 @@ internal class Program
             // ignored
         }
 
-        const string appName = "Global\\ASUS_ALB01_Driver";
+        const string appName = "Global\\AsusLightBarUnlocker_App";
         SingleInstanceMutex = new Mutex(true, appName, out var createdNew);
         if (!createdNew) return;
 
