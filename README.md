@@ -13,9 +13,9 @@ Unlocks full brightness potential and adds real-time Ambilight (Screen Sync) fea
 
 ## 📥 Installation
 1.  Go to the [Releases](../../releases) page.
-2.  Download the latest `ASUS-LightBar-Driver.zip`.
+2.  Download the Portable or Light zip.
 3.  Unzip anywhere.
-4.  Run `ASUS_ALB01_Driver.exe`.
+4.  Run `AsusLightBarUnlocker.exe`.
 5.  (Optional) Place a shortcut in `shell:startup` to run on boot.
 
 ## ⚙️ Usage
@@ -24,7 +24,9 @@ Unlocks full brightness potential and adds real-time Ambilight (Screen Sync) fea
 * **Debug Mode:** Enable "Show Capture Zone" to visualize where the driver is "looking" on your screen.
 
 ## ⚠️ Disclaimer
-This software interacts directly with the USB HID hardware. While tested safe on ALB01, use it at your own risk. The author is not responsible for any hardware damage caused by forcing brightness beyond manufacturer specifications.
-
+* This software interacts directly with the USB HID hardware. While tested safe on ALB01, use it at your own risk. The author is not responsible for any hardware damage caused by forcing brightness beyond manufacturer specifications.
+* **Device Support:** This driver is designed **exclusively** for the **ASUS ROG Aura Monitor Light Bar (ALB01)**. It does NOT support other ASUS devices (keyboards, mice, motherboards).
+* **No Aura Sync:** This software operates independently. It does **not** synchronize lighting with other Aura Sync-enabled hardware or software.
+  
 ## ❤️ Credits
 Developed as an open-source alternative for the community.
