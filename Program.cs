@@ -248,6 +248,11 @@ internal class Program
             {
                 if (!_isRunning)
                 {
+                    p35[9] = 0;
+                    p35[10] = 0;
+                    p35[11] = 0;
+                    curR = curG = curB = 0;
+                    stream.Write(p35);
                     stream.Write(blackPacket);
                     Thread.Sleep(500);
                     continue;
